@@ -11,7 +11,7 @@ conflict_prefer("lag","dplyr")
 q1_2019 = readxl::read_excel("Divvy_Trips_2019_Q1.xlsx")
 q1_2020 = readxl::read_excel("Divvy_Trips_2020_Q1.xlsx")
 
-# wrangle and combine the dataset
+# wrangle and combine the dataset.
 # column name for check column
 colnames(q1_2019)
 colnames(q1_2020)
